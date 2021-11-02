@@ -15,9 +15,12 @@ REQUIRMENTS
 - An API key that is created on DSaaS console
 - Policy ID used for the IM removal
 - Create a DS-Config.json in the same folder with the following content:
+- DS-Config.json:
+~~~~JSON
 {
     "MANAGER": "app.deepsecurity.trendmicro.com",
     "PORT": "443",
     "APIKEY" : "",
     "POLICYID" : ""
 }
+~~~~
